@@ -4,41 +4,44 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
     <title>CSS Flexbox</title>
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
+        <nav class="navbar">
+            <ul class="navlinks">
                 <li><a href="index.html">Flexbox</a></li>
                 <li><a href="grid.html">Grid</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <div class="sedans">
-            <img src="images/icon-sedans.svg" alt="">
-            <h2>SEDANS</h2>
-            <p>Choose a sedan for its affordability and excellent fuel economy. 
-               Ideal for cruising in the city or on your next road trip.
-            </p>
-            <button><a href="#">Learn More</a></button>
-        </div>
-        <div class="suvs">
-            <img src="images/icon-suvs.svg" alt="">
-            <h2>SUVS</h2>
-            <p>Take a SUV for its spacious interior, power and versatility. 
-                Perfect for your next family vaction and off-road adventures.
-            </p>
-            <button><a href="#">Learn More</a></button>
-        </div>
-        <div class="luxury">
-            <img src="images/icon-luxury.svg" alt="">
-            <h2>LUXURY</h2>
-            <p>Cruise in the best car brands without the bloated prices.
-                Enjoy the enhances comfort of a luxury rental and arrive in style.
-            </p>
-            <button><a href="#">Learn More</a></button>
+        <div class="car-container">
+            <div class="car sedan">
+                <img src="images/icon-sedans.svg" alt="">
+                <h2 class="brand">SEDANS</h2>
+                <p class="content">Choose a sedan for its affordability and excellent fuel economy. 
+                   Ideal for cruising in the city or on your next road trip.
+                </p>
+                <button class="sedan-link">Learn More</button>
+            </div>
+            <div class="car suv">
+                <img src="images/icon-suvs.svg" alt="">
+                <h2 class="brand">SUVS</h2>
+                <p class="content">Take a SUV for its spacious interior, power and versatility. 
+                    Perfect for your next family vaction and off-road adventures.
+                </p>
+                <button class="suv-link">Learn More</button>
+            </div>
+            <div class="car luxury">
+                <img src="images/icon-luxury.svg" alt="">
+                <h2 class="brand">LUXURY</h2>
+                <p class="content">Cruise in the best car brands without the bloated prices.
+                    Enjoy the enhances comfort of a luxury rental and arrive in style.
+                </p>
+                <button class="luxury-link">Learn More</button>
+            </div>
         </div>
     </main>
 </body>
