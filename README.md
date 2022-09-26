@@ -1,5 +1,5 @@
 # zuri-cssflexbox-grid
-##Link to page: https://muqsitadam.github.io/zuri-cssflexbox-grid/index.html
+## Link to page: https://muqsitadam.github.io/zuri-cssflexbox-grid/index.html
 This is a project in response to solving a task from the Zuri frontend training using flexbox and grid display of css.
 
 ## Flexbox
